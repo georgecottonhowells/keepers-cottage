@@ -1,0 +1,48 @@
+html,
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: Center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "Forum";
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+img {
+  object-fit: cover;
+}

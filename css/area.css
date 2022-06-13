@@ -1,0 +1,92 @@
+.area {
+  display: flex;
+  flex-direction: column;
+}
+
+.area__row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 300px;
+  flex-basis: 50%;
+}
+
+.area__center-wrapper {
+  width: 50%;
+  margin: 0 auto 300px auto;
+}
+
+.area__title {
+  margin: 0 auto 300px auto;
+  font-size: 70px;
+  text-align: center;
+  height: 75vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* clip-path: circle(); */
+}
+
+.area__title--flamborough {
+  background-image: url("../images/flamborough2.jpg");
+  color: white;
+}
+
+.area__title--bridlington {
+  background-image: url("../images/landscape.jpg");
+  color: white;
+}
+
+.area__title--howden {
+  background-image: url("../images/howden.jpg");
+  color: white;
+}
+
+.area__title--beverly {
+  background-image: url("../images/beverly.jpg");
+  color: white;
+}
+
+.area__title--staithes {
+  background-image: url("../images/staithes.jpg");
+  color: white;
+}
+
+.area__title--goathland {
+  background-image: url("../images/goathland.jpg");
+  color: white;
+}
+
+.area__subtitle {
+  width: 75%;
+  margin: 0 auto 300px auto;
+  font-size: 35px;
+  text-align: center;
+}
+
+.area__image {
+  margin: 0 auto 300px auto;
+  width: 75%;
+  display: block;
+  height: 75vh;
+}
+
+.area__attraction {
+  flex: 1;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.area__attraction-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.area__attraction-info {
+  text-align: center;
+  font-family: "Quicksand";
+  box-sizing: border-box;
+  padding-left: 15%;
+  padding-right: 15%;
+}

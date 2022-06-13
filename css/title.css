@@ -1,0 +1,20 @@
+.title {
+  text-align: center;
+  font-size: 70px;
+}
+
+/* title-with-image */
+
+.title-with-image {
+  clip-path: circle();
+}
+
+.title--homepage {
+  background-image: url("../images/livingroom.jpg");
+  color: white;
+}
+
+.title--image-flamborough {
+  background-image: url("../images/bridlington.jpg");
+  color: white;
+}

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer__title {
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.footer__nav {
+  margin-left: auto;
+  width: 25%;
+  padding-right: 20px;
+}
